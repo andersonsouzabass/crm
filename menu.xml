@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <menuitem label="Serviços">
+    <icon>fas:business-time fa-fw</icon>
+    <menu>
+      <menuitem label="Tipos de Serviço">
+        <action>TipoServicoList</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Serviços">
+        <action>ServicoList</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Fornecedor">
+    <icon>fas:building fa-fw</icon>
+    <menu>
+      <menuitem label="Perfil de Fornecedor">
+        <action>GrupoList</action>
+        <icon>fas:building fa-fw</icon>
+      </menuitem>
+      <menuitem label="Fornecedor">
+        <action>PessoaList</action>
+        <icon>fas:address-card fa-fw</icon>
+      </menuitem>
+      <menuitem label="Produto">
+        <action>ProdutoList</action>
+        <icon>fas:cash-register fa-fw</icon>
+      </menuitem>
+      <menuitem label="Motivo de SAC">
+        <action>MotivoSacList</action>
+        <icon>fas:balance-scale fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Contratos">
+    <icon>fas:newspaper fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>ContratoDashboard</action>
+        <icon>fas:tachometer-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="Clientes">
+        <action>ClienteList</action>
+        <icon>far:building fa-fw</icon>
+      </menuitem>
+      
+      <menuitem label="Contratos">
+        <action>ContratoList</action>
+        <icon>fas:money-bill-alt fa-fw</icon>
+      </menuitem>
+
+      <menuitem label="Renovação">
+        <action>RenovacaoList</action>
+        <icon>fas:money-bill-alt fa-fw</icon>
+      </menuitem>
+
+      <menuitem label="Logística">
+        <action>LogisticaList</action>
+        <icon>fas:money-bill-alt fa-fw</icon>
+      </menuitem>
+
+      <menuitem label="Validação">
+        <action>EfetivacaoList</action>
+        <icon>fas:money-bill-alt fa-fw</icon>
+      </menuitem>
+
+      
+    </menu>
+
+    <!--
+      <menuitem label="Tipos de contrato">
+        <action>TipoContratoList</action>
+        <icon>fas:newspaper fa-fw</icon>
+      </menuitem>
+      -->
+
+  </menuitem>
+
+  <menuitem label="Relatórios">
+    <icon>fas:clipboard-check fa-fw</icon>
+    <menu>
+      <menuitem label="Títulos Depositados">
+        <action>LoteRelatorioView</action>
+        <icon>fas:cash-register fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+
+
+  <menuitem label="Faturas">
+    <icon>fas:clipboard-check fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>FaturaDashboard</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Faturas">
+        <action>FaturaList</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Gerar Contas a Receber">
+        <action>GeraContasReceberList</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Financeiro">
+    <icon>fas:money-bill fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>FinanceiroDashboard</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Contas a Receber">
+        <action>ContaReceberList</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Quitação em lote">
+        <action>ContaReceberQuitacaoList#method=onLoad</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Ferramentas">
+    <icon>fas:tools fa-fw</icon>
+    <menu>
+      <menuitem label="Calendário">
+        <action>CalendarioView</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Projetos">
+        <action>ProjetoList</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+      <menuitem label="Kanban">
+        <action>ProjetoCardList</action>
+        <icon>far:circle fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="_t{Administration}">
+    <icon>fas:home fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>SystemAdministrationDashboard</action>
+        <icon>fas:tachometer-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="Cargos">
+        <action>SystemGroupList</action>
+        <icon>fas:users fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Users}">
+        <action>SystemUserList</action>
+        <icon>fas:user fa-fw</icon>
+      </menuitem>
+      <menuitem label="Acessos">
+        <action>SystemProgramList</action>
+        <icon>far:file-code fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Menu editor}">
+        <action>SystemMenuEditor</action>
+        <icon>far:edit fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Logout">
+    <icon>fas:sign-out-alt fa-fw</icon>
+    <menu>
+      <menuitem label="Logout">
+        <action>LoginForm#method=onLogout#static=1</action>
+        <icon>fas:sign-out-alt fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+</menu>

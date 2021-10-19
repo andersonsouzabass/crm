@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design>
+    <page>
+        <format>a4</format>
+        <orientation>P</orientation>
+    </page>
+    <rectangle id="1">
+        <class>Rectangle</class>
+        <x>34</x>
+        <y>6</y>
+        <width>556</width>
+        <height>140</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <baseline id="2">
+        <class>Baseline</class>
+        <y>158</y>
+        <linewidth>4</linewidth>
+        <linecolor>#C0C0C0</linecolor>
+    </baseline>
+    <text id="3">
+        <class>Text</class>
+        <x>70</x>
+        <y>34</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;DOADOR:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="4">
+        <class>Text</class>
+        <x>70</x>
+        <y>50</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{cliente}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="5">
+        <class>Text</class>
+        <x>70</x>
+        <y>70</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;ENDEREÇO:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="6">
+        <class>Text</class>
+        <x>70</x>
+        <y>88</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{endereco}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <rectangle id="7">
+        <class>Rectangle</class>
+        <x>34</x>
+        <y>168</y>
+        <width>556</width>
+        <height>372</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <text id="8">
+        <class>Text</class>
+        <x>70</x>
+        <y>176</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;BENEFICIADO:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="9">
+        <class>Text</class>
+        <x>70</x>
+        <y>192</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{pessoa}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="10">
+        <class>Text</class>
+        <x>70</x>
+        <y>214</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;DOADOR:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="11">
+        <class>Text</class>
+        <x>70</x>
+        <y>232</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{cliente}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="12">
+        <class>Text</class>
+        <x>70</x>
+        <y>256</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;VALOR DOADO:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="13">
+        <class>Text</class>
+        <x>182</x>
+        <y>256</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{total}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="14">
+        <class>Text</class>
+        <x>70</x>
+        <y>14</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;CONTRATO:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="15">
+        <class>Text</class>
+        <x>154</x>
+        <y>14</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{contrato}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <baseline id="16">
+        <class>Baseline</class>
+        <y>570</y>
+        <linewidth>4</linewidth>
+        <linecolor>#C0C0C0</linecolor>
+    </baseline>
+    <rectangle id="17">
+        <class>Rectangle</class>
+        <x>34</x>
+        <y>582</y>
+        <width>556</width>
+        <height>252</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <text id="18">
+        <class>Text</class>
+        <x>70</x>
+        <y>318</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;ASSINATURA DO DOADOR: _________________________________________&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="19">
+        <class>Text</class>
+        <x>70</x>
+        <y>286</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;DATA: ____/_____/____________&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <rectangle id="20">
+        <class>Rectangle</class>
+        <x>72</x>
+        <y>370</y>
+        <width>518</width>
+        <height>156</height>
+        <fillcolor>#FFFFFF</fillcolor>
+        <linecolor>#000000</linecolor>
+        <linewidth>1</linewidth>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </rectangle>
+    <text id="21">
+        <class>Text</class>
+        <x>70</x>
+        <y>356</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;OBSERVAÇÃO:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="22">
+        <class>Text</class>
+        <x>70</x>
+        <y>592</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;BENEFICIADO:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="23">
+        <class>Text</class>
+        <x>70</x>
+        <y>606</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{pessoa}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="24">
+        <class>Text</class>
+        <x>70</x>
+        <y>628</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;DOADOR:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="25">
+        <class>Text</class>
+        <x>70</x>
+        <y>646</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{cliente}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="26">
+        <class>Text</class>
+        <x>70</x>
+        <y>668</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;VALOR DOADO:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="27">
+        <class>Text</class>
+        <x>182</x>
+        <y>668</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{total}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="28">
+        <class>Text</class>
+        <x>70</x>
+        <y>702</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;DATA: ____/_____/____________&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="29">
+        <class>Text</class>
+        <x>72</x>
+        <y>740</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;ASSINATURA DO DOADOR: _________________________________________&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="30">
+        <class>Text</class>
+        <x>288</x>
+        <y>14</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>&lt;b&gt;DATA:&lt;/b&gt;</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+    <text id="31">
+        <class>Text</class>
+        <x>336</x>
+        <y>14</y>
+        <font>Arial</font>
+        <size>14</size>
+        <text>{data}</text>
+        <color>#000000</color>
+        <shadowoffset>0</shadowoffset>
+        <shadowcolor>#000000</shadowcolor>
+    </text>
+</design>
