@@ -206,8 +206,7 @@ class ClienteForm extends TPage
 
         $tipo->addItems([
             'email' => 'E-mail',
-            'fone_fixo' => 'Telefone Fixo',
-            'celular' => 'Celular'
+            'telefone' => 'Telefone'
             ]);
 
         $principal->addItems([
